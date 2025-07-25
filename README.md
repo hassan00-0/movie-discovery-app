@@ -2,7 +2,7 @@
 
 This is my **first React project**, a simple movie discovery app that lets users search for movies and view their details using the TMDb API.
 
-🔗 **Live Demo**: [movie-discovery-app.netlify.app](https://movie-discovery-app.netlify.app)
+🔗 **Live Demo**: [movie-discovery-app.netlify.app](https://movie-discovery-react.netlify.app/)
 
 ## 🚀 Features
 - 🔍 Search for movies
