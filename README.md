@@ -32,17 +32,40 @@ VITE_TMDB_API_KEY=your_tmdb_api_key_here
 4.Run the app:
 npm run dev
 
-📂 Folder Structure
+### 📁 Folder Structure
 
+```
+.
 ├── public
+│   ├── hero-bg.png
+│   ├── hero-img.png
+│   ├── logo.png
+│   ├── No-Poster.png
+│   ├── Rating.svg
+│   └── search.svg
 ├── src
+│   ├── assets
+│   │   └── react.svg
 │   ├── components
-│   ├── appwrite.js
+│   │   ├── AuthModal.jsx
+│   │   ├── Loader.jsx
+│   │   ├── MovieCard.jsx
+│   │   └── Search.jsx
+│   ├── App.css
 │   ├── App.jsx
-│   └── main.jsx
-├── .env           # Not included in repo
+│   ├── appwrite.js
+│   └── index.css
+├── .env
 ├── .gitignore
+├── eslint.config.js
+├── index.html
+├── main.jsx
+├── package-lock.json
+├── package.json
 ├── README.md
+└── vite.config.js
+```
+
 ⚠️ Notes
 .env is ignored in version control to keep your API key safe.
 
