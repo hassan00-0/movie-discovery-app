@@ -1,12 +1,51 @@
-# React + Vite
+# 🎬 Movie Discovery App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my **first React project**, a simple movie discovery app that lets users search for movies and view their details using the TMDb API.
 
-Currently, two official plugins are available:
+🔗 **Live Demo**: [movie-discovery-app.netlify.app](https://movie-discovery-app.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- 🔍 Search for movies
+- 🎞️ View posters and overviews
+- ⚡ Fast and responsive UI
+- 🌐 Data fetched from [TMDb API](https://www.themoviedb.org/documentation/api)
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
+- React
+- Vite
+- TMDb API
+- Appwrite (for tracking search counts)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Getting Started
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/hassan00-0/movie-discovery-app.git
+   cd movie-discovery-app
+   
+2.Install dependencies:
+npm install
+
+3.Create a .env file and add your API key:
+VITE_TMDB_API_KEY=your_tmdb_api_key_here
+
+4.Run the app:
+npm run dev
+
+📂 Folder Structure
+
+├── public
+├── src
+│   ├── components
+│   ├── appwrite.js
+│   ├── App.jsx
+│   └── main.jsx
+├── .env           # Not included in repo
+├── .gitignore
+├── README.md
+⚠️ Notes
+.env is ignored in version control to keep your API key safe.
+
+This project uses Vite for a lightning-fast development environment.
+
+Made by Hassan
